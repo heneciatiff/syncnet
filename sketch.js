@@ -43,14 +43,3 @@ function draw() {
     }
   }
 }
-
-// Function to center the canvas
-function centerCanvas() {
-  let x = (windowWidth - width) / 2;
-  let y = (windowHeight - height) / 2;
-  canvas.position(x, y); // Center the canvas
-}
-
-function windowResized() {
-  centerCanvas(); // Re-center canvas on window resize
-}
